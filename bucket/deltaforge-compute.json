@@ -1,0 +1,23 @@
+{
+    "version": "1.0.1",
+    "description": "Delta Forge compute node",
+    "homepage": "https://deltaforge.org",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-compute-1.0.1-windows-x64.zip",
+            "hash": "189106b6e9c79c9f4b46e58f2e212b6ec065ff90b2669ec693e53a8ccefce5f3"
+        }
+    },
+    "bin": "deltaforge-compute.exe",
+    "checkver": {
+        "github": "https://github.com/deltaforge-org/delta-forge"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/deltaforge-org/delta-forge/releases/download/v$version/deltaforge-compute-$version-windows-x64.zip"
+            }
+        }
+    }
+}
