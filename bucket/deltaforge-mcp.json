@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Delta Forge Model Context Protocol server",
     "homepage": "https://deltaforge.org",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-mcp-1.0.1-windows-x64.zip",
-            "hash": "77f64e1d98fce0393d351212b3b91f76efd5828cff4b4c79cc3f0631ef027119"
+            "url": "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-mcp-1.0.2-windows-x64.zip",
+            "hash": "bed473736c47cd1a2b38b3171e37d8cad88bb869a5c6684639b6726226d0ab92"
         }
     },
     "bin": "deltaforge-mcp.exe",
